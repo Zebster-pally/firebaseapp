@@ -1,0 +1,14 @@
+<div class="wrapper">
+  <mat-form-field>
+    <mat-label>Id</mat-label>
+    <input matInput placeholder="Id" [value]="user.uid" readonly>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Email</mat-label>
+    <input matInput placeholder="Email" [(ngModel)]="user.email" readonly>
+  </mat-form-field>
+  <div class="buttons">
+    <button mat-raised-button color="accent" routerLink="/users">Back to list</button>
+    <button mat-raised-button color="primary" (click)="update();">Update</button>
+  </div>
+</div>

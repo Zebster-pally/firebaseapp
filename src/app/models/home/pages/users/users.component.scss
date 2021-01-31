@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  td {
+    font-size: 10px;
+  }
+  button {
+    min-width: 55px;
+    padding: 0 8px;
+  }
+  td.mat-cell:first-of-type {
+    padding-left: 3px;
+  }
+  td.mat-cell:last-of-type {
+    padding-right: 3px;
+  }
+}

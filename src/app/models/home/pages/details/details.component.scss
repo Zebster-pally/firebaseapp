@@ -1,0 +1,24 @@
+.wrapper {
+  padding-top: 20px;
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 425px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
